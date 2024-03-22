@@ -211,10 +211,10 @@ const Hero = () => {
         ))}
 
         <div className="text-left ml-4 px-7 mt-7 w-[90%] lg:w-[70%] justify-center items-center md:w-[120%] md:justify-center md:items-center">
-          <h3 className="text-4xl font-semibold mt-0 text-white mb-6">
+          <h3 className="text-3xl font-semibold mt-0 text-white mb-6 lg:text-3xl">
             Contact Details
           </h3>
-          <div className="bg-black bg-opacity-30 p-6 rounded-lg shadow-2xl bg-clip-border border-[1.5px]">
+          <div className="bg-black bg-opacity-30 p-6 rounded-lg shadow-2xl bg-clip-border border-[1.5px] text-sm lg:text-lg w-[110%] lg:w-[100%]">
             <p className="mb-4 font-normal text-gray-600">
               <strong className="text-white font-medium font-mono">
                 Email:{" "}
@@ -227,7 +227,7 @@ const Hero = () => {
               </strong>
               {portfolioDetails.contact.phone}
             </p>
-            <div className="flex flex-wrap gap-4 font-mono text-sm w-[120%]">
+            <div className="grid grid-cols-2 gap-4 font-mono text-sm w-[90%] text-center lg:flex lg:flex-wrap lg:w-[100%]">
               <a
                 href={portfolioDetails.contact.socialMedia.linkedin}
                 target="_blank"
