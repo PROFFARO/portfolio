@@ -43,6 +43,13 @@ const portfolioDetails = {
       technologies: ["Python"],
       url: "https://github.com/PROFFARO/TEXT_ENCRYPTION_DECRYPTION_TOOL",
     },
+    {
+      title: "Dayananda Bindhani - PORTFOLIO",
+      description:
+        "portfolio that contains About, details, skillsets like programming languages, tools, general languages and contains some sort of projects, also have contact details.",
+      technologies: ["HTML, CSS, JS, ReactJS, Tailwindcss, vite"],
+      url: "https://github.com/PROFFARO/portfolio",
+    },
   ],
   contact: {
     email: "dayananda.btmtcs22218@nfsu.ac.in",
