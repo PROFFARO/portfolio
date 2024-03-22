@@ -70,7 +70,7 @@ const Navbar = () => {
       }`}
       style={navbarStyle}
     >
-      <div className="flex flex-col sm:flex sm:flex-col md:flex md:gap-3 md:flex-col lg:flex lg:flex-row xl:flex-row 2xl:flex-row justify-between items-center p-3 w-full rounded-md text-sm">
+      <div className="flex flex-row sm:flex sm:flex-col md:flex md:gap-3 md:flex-col lg:flex lg:flex-row xl:flex-row 2xl:flex-row justify-between items-center p-3 w-full rounded-md text-sm">
         <div className="flex flex-row items-center gap-5">
           <Avatar>
             <AvatarImage src={profile_logo} alt="profile" />
@@ -83,7 +83,7 @@ const Navbar = () => {
             Dayananda Bindhani
           </a>
         </div>
-        <div className="flex flex-col md:mb-3 justify-between items-center gap-5 mt-4 md:mt-3">
+        <div className="grid grid-col-2 md:mb-3 justify-between items-center gap-5 mt-4 md:mt-3">
           <button
             className="flex flex-row  gap-1 border p-1.5 text-center border-none rounded-lg bg-gradient-to-r from-amber-400 to-red-400 hover:bg-gradient-to-r hover:from-green-400 hover:to-fuchsia-400 text-black transition duration-200 ease-in-out transform hover:scale-105"
             onClick={open_in_win_github}
