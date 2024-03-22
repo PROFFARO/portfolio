@@ -16,7 +16,7 @@ const portfolioDetails = {
       { name: "HTML", image: "html.png" },
       { name: "CSS", image: "css-logo.png" },
       { name: "JS", image: "javascript.png" },
-      { name: "Tailwindcss", image: "tailwindcss_logo.png" },
+      { name: "Tailwind", image: "tailwindcss_logo.png" },
       { name: "ReactJS", image: "reactjs_logo.png" },
     ],
     tools: [
