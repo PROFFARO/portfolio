@@ -83,7 +83,7 @@ const Navbar = () => {
             Dayananda Bindhani
           </a>
         </div>
-        <div className="flex flex-row md:mb-3 justify-between items-center gap-5 mt-4 md:mt-3">
+        <div className="flex flex-col md:mb-3 justify-between items-center gap-5 mt-4 md:mt-3">
           <button
             className="flex flex-row  gap-1 border p-1.5 text-center border-none rounded-lg bg-gradient-to-r from-amber-400 to-red-400 hover:bg-gradient-to-r hover:from-green-400 hover:to-fuchsia-400 text-black transition duration-200 ease-in-out transform hover:scale-105"
             onClick={open_in_win_github}
