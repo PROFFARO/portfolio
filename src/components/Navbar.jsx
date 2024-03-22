@@ -70,7 +70,7 @@ const Navbar = () => {
       }`}
       style={navbarStyle}
     >
-      <div className="sm:flex sm:flex-col md:flex md:gap-3 md:flex-col lg:flex lg:flex-row xl:flex-row 2xl:flex-row justify-between items-center p-3 w-full rounded-md text-sm">
+      <div className="flex flex-col sm:flex sm:flex-col md:flex md:gap-3 md:flex-col lg:flex lg:flex-row xl:flex-row 2xl:flex-row justify-between items-center p-3 w-full rounded-md text-sm">
         <div className="flex flex-row items-center gap-5">
           <Avatar>
             <AvatarImage src={profile_logo} alt="profile" />
